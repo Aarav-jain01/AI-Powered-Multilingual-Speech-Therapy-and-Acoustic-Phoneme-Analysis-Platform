@@ -1,0 +1,476 @@
+{
+  "children": [
+    {
+      "id": "child-aarav-01",
+      "name": "Aarav Sharma",
+      "dateOfBirth": "2019-04-15",
+      "ageYears": 7,
+      "homeLanguages": [
+        "en_IN",
+        "hi_IN"
+      ],
+      "primaryPracticeLanguage": "en_IN",
+      "accentProfile": "indian_english",
+      "assignedClinicianId": "slp_dr_neha_rao",
+      "consentId": "csnt_dpdp_8921a",
+      "avatarId": "parrot_companion",
+      "streakDays": 5,
+      "totalStars": 53,
+      "sessionTimeCapMinutes": 12,
+      "dyslexiaFontEnabled": false,
+      "reducedMotionEnabled": false
+    },
+    {
+      "id": "child_maya_02",
+      "name": "Maya Patel",
+      "dateOfBirth": "2020-07-19",
+      "ageYears": 6,
+      "homeLanguages": [
+        "ta_IN",
+        "en_IN"
+      ],
+      "primaryPracticeLanguage": "en_IN",
+      "accentProfile": "indian_english",
+      "assignedClinicianId": "slp_dr_neha_rao",
+      "consentId": "csnt_dpdp_8921b",
+      "avatarId": "parrot_companion",
+      "streakDays": 2,
+      "totalStars": 19,
+      "sessionTimeCapMinutes": 12,
+      "dyslexiaFontEnabled": false,
+      "reducedMotionEnabled": false
+    },
+    {
+      "id": "child_sofia_03",
+      "name": "Sofia Rodriguez",
+      "dateOfBirth": "2022-02-08",
+      "ageYears": 4,
+      "homeLanguages": [
+        "es_ES",
+        "en_US"
+      ],
+      "primaryPracticeLanguage": "es_ES",
+      "accentProfile": "us_english",
+      "assignedClinicianId": "slp_dr_neha_rao",
+      "consentId": "csnt_dpdp_8921b",
+      "avatarId": "parrot_companion",
+      "streakDays": 3,
+      "totalStars": 14,
+      "sessionTimeCapMinutes": 8,
+      "dyslexiaFontEnabled": false,
+      "reducedMotionEnabled": false
+    }
+  ],
+  "consents": [
+    {
+      "consentId": "csnt_dpdp_8921a",
+      "guardianName": "Priya Sharma",
+      "guardianEmail": "priya@example.com",
+      "dpdpConsentVerified": true,
+      "coppaConsentVerified": true,
+      "gdprConsentVerified": true,
+      "researchOptIn": false,
+      "audioRetentionDays": 30,
+      "consentTimestamp": "2026-10-01T10:00:00.000Z",
+      "ipHash": "demo-ip-hash"
+    }
+  ],
+  "caseload": [
+    {
+      "childId": "child-aarav-01",
+      "childName": "Aarav Sharma",
+      "age": 7,
+      "languages": [
+        "en_IN",
+        "hi_IN"
+      ],
+      "primaryDiagnosis": "articulation",
+      "activeGoals": [
+        {
+          "id": "goal-aarav-r",
+          "childId": "child-aarav-01",
+          "targetPhoneme": "/r/",
+          "position": "initial",
+          "targetAccuracy": 80,
+          "consecutiveSessionsRequired": 3,
+          "currentAccuracy": 72,
+          "startDate": "2026-09-15",
+          "targetCompletionDate": "2026-11-15",
+          "status": "active",
+          "notes": "Use visual tongue-placement cue before each attempt."
+        }
+      ],
+      "lastPracticeDate": "2026-10-31",
+      "practiceStreakDays": 5,
+      "unreviewedRecordingsCount": 5,
+      "riskAlert": null,
+      "acceptedVariants": [
+        "/ɻ/"
+      ]
+    }
+  ],
+  "attempts": [
+    {
+      "attemptId": "att_1793430656778_l98ve",
+      "childId": "child-aarav-01",
+      "wordId": "word-sun",
+      "targetWord": "sun",
+      "language": "en_US",
+      "targetIPA": "/sʌn/",
+      "recognizedIPA": "/sʌn/",
+      "overallGOP": 0.92,
+      "confidence": 0.93,
+      "phonemes": [
+        {
+          "phoneme": "/sʌn/",
+          "recognizedPhoneme": "/sʌn/",
+          "position": "initial",
+          "gopScore": 0.92,
+          "status": "correct",
+          "errorType": "none",
+          "startTimeMs": 80,
+          "endTimeMs": 860,
+          "formants": {
+            "f1": 470,
+            "f2": 1560,
+            "f3": 2340
+          },
+          "spectralCentroidHz": 2450,
+          "pitchF0Hz": 292,
+          "articulatoryTip": "Accurate acoustic target placement."
+        }
+      ],
+      "disfluency": {
+        "detected": true,
+        "percentSyllablesStuttered": 8.4,
+        "prolongationsCount": 0,
+        "blocksCount": 0,
+        "repetitionsCount": 2,
+        "averageDurationMs": 410,
+        "clinicalNote": "Estimate for clinician review: Initial sound repetition observed (%SS ~8.4%). Zero child penalty applied."
+      },
+      "isAcceptedVariant": false,
+      "childFeedback": "Wonderful steady voice! You took your time and finished the whole word smoothly.",
+      "encouragementStars": 3,
+      "timestamp": "2026-10-31T07:10:56.778Z",
+      "clinicianReviewStatus": "flagged"
+    },
+    {
+      "attemptId": "att_1793202743064_58mau",
+      "childId": "child-aarav-01",
+      "wordId": "word-sun",
+      "targetWord": "sun",
+      "language": "en_US",
+      "targetIPA": "/sʌn/",
+      "recognizedIPA": "/sʌn/",
+      "overallGOP": 0.87,
+      "confidence": 0.94,
+      "phonemes": [
+        {
+          "phoneme": "/sʌn/",
+          "recognizedPhoneme": "/sʌn/",
+          "position": "initial",
+          "gopScore": 0.87,
+          "status": "correct",
+          "errorType": "none",
+          "startTimeMs": 0,
+          "endTimeMs": 5717,
+          "formants": {
+            "f1": 844,
+            "f2": 1234,
+            "f3": 2781
+          },
+          "spectralCentroidHz": 1711,
+          "pitchF0Hz": 181,
+          "articulatoryTip": "Great placement and clear sound!"
+        }
+      ],
+      "disfluency": {
+        "detected": false,
+        "percentSyllablesStuttered": 0,
+        "prolongationsCount": 0,
+        "blocksCount": 0,
+        "repetitionsCount": 0,
+        "averageDurationMs": 0,
+        "clinicalNote": "Speech fluent with rhythmic articulation."
+      },
+      "isAcceptedVariant": false,
+      "childFeedback": "Wonderful clear speech! Every sound landed right in place.",
+      "encouragementStars": 3,
+      "recordedAudioUrl": "blob:http://localhost:3000/fb192986-3972-421e-86bd-850698264fb0",
+      "timestamp": "2026-10-28T15:52:23.064Z",
+      "clinicianReviewStatus": "unreviewed"
+    },
+    {
+      "attemptId": "att_1793202736329_n8qfa",
+      "childId": "child-aarav-01",
+      "wordId": "word-sun",
+      "targetWord": "sun",
+      "language": "en_US",
+      "targetIPA": "/sʌn/",
+      "recognizedIPA": "/sʌn/",
+      "overallGOP": 0.87,
+      "confidence": 0.94,
+      "phonemes": [
+        {
+          "phoneme": "/sʌn/",
+          "recognizedPhoneme": "/sʌn/",
+          "position": "initial",
+          "gopScore": 0.87,
+          "status": "correct",
+          "errorType": "none",
+          "startTimeMs": 0,
+          "endTimeMs": 256,
+          "formants": {
+            "f1": 984,
+            "f2": 1406,
+            "f3": 2344
+          },
+          "spectralCentroidHz": 2346,
+          "pitchF0Hz": 285,
+          "articulatoryTip": "Great placement and clear sound!"
+        }
+      ],
+      "disfluency": {
+        "detected": false,
+        "percentSyllablesStuttered": 0,
+        "prolongationsCount": 0,
+        "blocksCount": 0,
+        "repetitionsCount": 0,
+        "averageDurationMs": 0,
+        "clinicalNote": "Utterance within standard fluent tempo."
+      },
+      "isAcceptedVariant": false,
+      "childFeedback": "Wonderful clear speech! Every sound landed right in place.",
+      "encouragementStars": 3,
+      "recordedAudioUrl": "blob:http://localhost:3000/ecf4d70a-5239-4831-ac25-f1ae63f8b06d",
+      "timestamp": "2026-10-28T15:52:16.329Z",
+      "clinicianReviewStatus": "unreviewed"
+    },
+    {
+      "attemptId": "att_1793202734384_tyf4x",
+      "childId": "child-aarav-01",
+      "wordId": "word-sun",
+      "targetWord": "sun",
+      "language": "en_US",
+      "targetIPA": "/sʌn/",
+      "recognizedIPA": "—",
+      "overallGOP": 0.45,
+      "confidence": 0.52,
+      "phonemes": [],
+      "disfluency": {
+        "detected": false,
+        "percentSyllablesStuttered": 0,
+        "prolongationsCount": 0,
+        "blocksCount": 0,
+        "repetitionsCount": 0,
+        "averageDurationMs": 0,
+        "clinicalNote": "Low volume or brief utterance; prompt child to speak closer to microphone."
+      },
+      "isAcceptedVariant": false,
+      "childFeedback": "Let's try again together! Hold the big button and speak in your clear explorer voice.",
+      "encouragementStars": 1,
+      "recordedAudioUrl": "blob:http://localhost:3000/42ceca34-1e28-460b-a582-9f8237c25306",
+      "timestamp": "2026-10-28T15:52:14.384Z",
+      "clinicianReviewStatus": "flagged"
+    },
+    {
+      "attemptId": "att_1793202728118_y51z4",
+      "childId": "child-aarav-01",
+      "wordId": "word-sun",
+      "targetWord": "sun",
+      "language": "en_US",
+      "targetIPA": "/sʌn/",
+      "recognizedIPA": "—",
+      "overallGOP": 0.45,
+      "confidence": 0.52,
+      "phonemes": [],
+      "disfluency": {
+        "detected": false,
+        "percentSyllablesStuttered": 0,
+        "prolongationsCount": 0,
+        "blocksCount": 0,
+        "repetitionsCount": 0,
+        "averageDurationMs": 0,
+        "clinicalNote": "Low volume or brief utterance; prompt child to speak closer to microphone."
+      },
+      "isAcceptedVariant": false,
+      "childFeedback": "Let's try again together! Hold the big button and speak in your clear explorer voice.",
+      "encouragementStars": 1,
+      "recordedAudioUrl": "blob:http://localhost:3000/83af8279-1d7e-49bc-8d06-58234e69ea66",
+      "timestamp": "2026-10-28T15:52:08.118Z",
+      "clinicianReviewStatus": "flagged"
+    }
+  ],
+  "goals": [
+    {
+      "id": "goal-aarav-r",
+      "childId": "child-aarav-01",
+      "targetPhoneme": "/r/",
+      "position": "initial",
+      "targetAccuracy": 80,
+      "consecutiveSessionsRequired": 3,
+      "currentAccuracy": 72,
+      "startDate": "2026-09-15",
+      "targetCompletionDate": "2026-11-15",
+      "status": "active",
+      "notes": "Use visual tongue-placement cue before each attempt."
+    }
+  ],
+  "goldCorrections": [
+    {
+      "attemptId": "att_sample_02",
+      "clinicianId": "slp_dr_neha_rao",
+      "originalRecognizedIPA": "s ʌ n",
+      "correctedIPA": "s ʌ n",
+      "notes": "Verified crisp alveolar frication at 6200Hz spectral centroid.",
+      "acousticAgreement": true,
+      "timestamp": "2026-10-22T17:10:00Z"
+    }
+  ],
+  "wordBank": [
+    {
+      "id": "word-sun",
+      "text": "sun",
+      "language": "en_US",
+      "ipa": "/sʌn/",
+      "targetPhoneme": "/s/",
+      "targetPosition": "initial",
+      "syllableCount": 1,
+      "syllableShape": "CVC",
+      "difficultyTier": 1,
+      "iconName": "sun"
+    },
+    {
+      "id": "word-rabbit",
+      "text": "rabbit",
+      "language": "en_US",
+      "ipa": "/ˈræbɪt/",
+      "targetPhoneme": "/r/",
+      "targetPosition": "initial",
+      "syllableCount": 2,
+      "syllableShape": "CVCVC",
+      "difficultyTier": 2,
+      "iconName": "rabbit"
+    },
+    {
+      "id": "word-water",
+      "text": "water",
+      "language": "en_IN",
+      "ipa": "/ˈwɔːtər/",
+      "targetPhoneme": "/w/",
+      "targetPosition": "initial",
+      "syllableCount": 2,
+      "syllableShape": "CVCVC",
+      "difficultyTier": 2,
+      "iconName": "droplets",
+      "acceptedCodeSwitchAlternates": [
+        "pani",
+        "पानी"
+      ]
+    },
+    {
+      "id": "word-milk",
+      "text": "milk",
+      "language": "en_IN",
+      "ipa": "/mɪlk/",
+      "targetPhoneme": "/l/",
+      "targetPosition": "final",
+      "syllableCount": 1,
+      "syllableShape": "CVCC",
+      "difficultyTier": 2,
+      "iconName": "milk",
+      "acceptedCodeSwitchAlternates": [
+        "doodh",
+        "दूध"
+      ]
+    },
+    {
+      "id": "word-perro",
+      "text": "perro",
+      "language": "es_ES",
+      "ipa": "/ˈpero/",
+      "targetPhoneme": "/r/",
+      "targetPosition": "medial",
+      "syllableCount": 2,
+      "syllableShape": "CVCV",
+      "difficultyTier": 3,
+      "iconName": "dog"
+    },
+    {
+      "id": "word-mango",
+      "text": "mango",
+      "language": "en_IN",
+      "ipa": "/ˈmæŋɡoʊ/",
+      "targetPhoneme": "/ŋ/",
+      "targetPosition": "medial",
+      "syllableCount": 2,
+      "syllableShape": "CVCCV",
+      "difficultyTier": 2,
+      "iconName": "apple"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log_1793430657105",
+      "action": "audio_recorded",
+      "timestamp": "2026-10-31T07:10:57.105Z",
+      "details": "Attempt \"sun\" (en_US) analyzed · GOP 92% · Rolling retention active.",
+      "actorRole": "system"
+    },
+    {
+      "id": "log_1793202743067",
+      "action": "audio_recorded",
+      "timestamp": "2026-10-28T15:52:23.067Z",
+      "details": "Attempt \"sun\" (en_US) analyzed · GOP 87% · Rolling retention active.",
+      "actorRole": "system"
+    },
+    {
+      "id": "log_1793202736332",
+      "action": "audio_recorded",
+      "timestamp": "2026-10-28T15:52:16.332Z",
+      "details": "Attempt \"sun\" (en_US) analyzed · GOP 87% · Rolling retention active.",
+      "actorRole": "system"
+    },
+    {
+      "id": "log_1793202734386",
+      "action": "audio_recorded",
+      "timestamp": "2026-10-28T15:52:14.386Z",
+      "details": "Attempt \"sun\" (en_US) analyzed · GOP 45% · Rolling retention active.",
+      "actorRole": "system"
+    },
+    {
+      "id": "log_1793202728702",
+      "action": "audio_recorded",
+      "timestamp": "2026-10-28T15:52:08.702Z",
+      "details": "Attempt \"sun\" (en_US) analyzed · GOP 45% · Rolling retention active.",
+      "actorRole": "system"
+    },
+    {
+      "id": "audit-consent-01",
+      "action": "consent_granted",
+      "timestamp": "2026-10-01T10:00:00.000Z",
+      "details": "Guardian consent verified for practice features.",
+      "actorRole": "parent"
+    }
+  ],
+  "telepracticeNotes": [
+    {
+      "id": "note_01",
+      "childId": "child_aarav_01",
+      "authorName": "Dr. Neha Rao, CCC-SLP",
+      "authorRole": "clinician",
+      "message": "Aarav responded really well to the spoon-tongue visual cue this week! Keep practicing 5 minutes after school and celebrate both Hindi and English words.",
+      "timestamp": "2026-10-22T18:00:00Z"
+    },
+    {
+      "id": "note_02",
+      "childId": "child_aarav_01",
+      "authorName": "Priya Sharma (Parent)",
+      "authorRole": "parent",
+      "message": "Thank you Dr. Neha! He loved that saying \"pani\" was accepted during the picture game without marking him wrong.",
+      "timestamp": "2026-10-23T08:15:00Z"
+    }
+  ],
+  "inquiries": []
+}
