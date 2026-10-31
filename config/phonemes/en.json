@@ -1,0 +1,23 @@
+{
+  "language": "en",
+  "name": "English (US / UK / Indian)",
+  "phoneme_inventory": [
+    { "ipa": "ɹ", "manner": "liquid", "place": "alveolar", "voiced": true, "acquisition_age": 6.0 },
+    { "ipa": "l", "manner": "liquid", "place": "alveolar", "voiced": true, "acquisition_age": 4.5 },
+    { "ipa": "s", "manner": "fricative", "place": "alveolar", "voiced": false, "acquisition_age": 4.0 },
+    { "ipa": "z", "manner": "fricative", "place": "alveolar", "voiced": true, "acquisition_age": 5.0 },
+    { "ipa": "ʃ", "manner": "fricative", "place": "postalveolar", "voiced": false, "acquisition_age": 5.0 },
+    { "ipa": "θ", "manner": "fricative", "place": "dental", "voiced": false, "acquisition_age": 6.0 },
+    { "ipa": "ð", "manner": "fricative", "place": "dental", "voiced": true, "acquisition_age": 6.5 },
+    { "ipa": "t", "manner": "stop", "place": "alveolar", "voiced": false, "acquisition_age": 3.0 },
+    { "ipa": "d", "manner": "stop", "place": "alveolar", "voiced": true, "acquisition_age": 3.0 },
+    { "ipa": "k", "manner": "stop", "place": "velar", "voiced": false, "acquisition_age": 3.5 },
+    { "ipa": "g", "manner": "stop", "place": "velar", "voiced": true, "acquisition_age": 3.5 },
+    { "ipa": "p", "manner": "stop", "place": "bilabial", "voiced": false, "acquisition_age": 3.0 },
+    { "ipa": "b", "manner": "stop", "place": "bilabial", "voiced": true, "acquisition_age": 3.0 }
+  ],
+  "accepted_dialect_mappings": {
+    "v_w_merger": { "target": "w", "accepted_substitute": "v" },
+    "retroflex_stops": { "target": "t", "accepted_substitute": "ʈ" }
+  }
+}

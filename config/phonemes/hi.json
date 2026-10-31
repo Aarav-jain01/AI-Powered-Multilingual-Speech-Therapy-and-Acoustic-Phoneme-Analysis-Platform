@@ -1,0 +1,16 @@
+{
+  "language": "hi",
+  "name": "Hindi",
+  "phoneme_inventory": [
+    { "ipa": "ʈ", "manner": "stop", "place": "retroflex", "voiced": false, "aspirated": false, "acquisition_age": 4.5 },
+    { "ipa": "ʈʰ", "manner": "stop", "place": "retroflex", "voiced": false, "aspirated": true, "acquisition_age": 5.0 },
+    { "ipa": "ɖ", "manner": "stop", "place": "retroflex", "voiced": true, "aspirated": false, "acquisition_age": 4.5 },
+    { "ipa": "ɖʰ", "manner": "stop", "place": "retroflex", "voiced": true, "aspirated": true, "acquisition_age": 5.0 },
+    { "ipa": "t̪", "manner": "stop", "place": "dental", "voiced": false, "aspirated": false, "acquisition_age": 3.5 },
+    { "ipa": "d̪", "manner": "stop", "place": "dental", "voiced": true, "aspirated": false, "acquisition_age": 3.5 },
+    { "ipa": "r", "manner": "liquid", "place": "alveolar", "voiced": true, "acquisition_age": 5.5 },
+    { "ipa": "ɽ", "manner": "flap", "place": "retroflex", "voiced": true, "acquisition_age": 5.5 },
+    { "ipa": "s", "manner": "fricative", "place": "alveolar", "voiced": false, "acquisition_age": 4.0 },
+    { "ipa": "ʃ", "manner": "fricative", "place": "postalveolar", "voiced": false, "acquisition_age": 4.5 }
+  ]
+}

@@ -1,0 +1,22 @@
+# BoloSpeech Model Release Gate Configuration
+version: "1.0"
+
+thresholds:
+  phoneme_error_rate_max: 0.120        # Max 12% PER across test corpora
+  false_rejection_rate_max: 0.050      # Critical: Max 5% of correct child sounds marked wrong
+  false_acceptance_rate_max: 0.080     # Max 8% of disordered sounds marked correct
+  gop_slp_correlation_min: 0.820       # Minimum Pearson correlation with human SLP gold labels
+  disfluency_f1_min: 0.780             # Disfluency detection minimum F1 score
+  max_inference_latency_ms: 1200       # P95 latency threshold on single CPU core
+
+fairness_parity_gates:
+  max_demographic_parity_gap: 0.025    # Maximum 2.5% gap between age, gender, or accent cohorts
+  protected_attributes:
+    - age_band (3-5, 6-8, 9-12)
+    - language_dialect (indian_english, us_english, hindi, tamil, bengali, spanish)
+    - gender (female, male, non-specified)
+
+blocking_actions:
+  block_deployment_on_failure: true
+  alert_email: clinical-qa@bolospeech.org
+  require_two_slp_signoffs: true

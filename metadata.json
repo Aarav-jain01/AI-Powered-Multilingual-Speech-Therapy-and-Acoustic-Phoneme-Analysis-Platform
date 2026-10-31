@@ -1,0 +1,6 @@
+{
+  "name": "BoloSpeech - Multilingual Pediatric Speech Therapy Platform",
+  "description": "Clinically-informed, privacy-respecting pediatric speech therapy platform with real-time acoustic phoneme feedback, code-switching tolerance (Hindi, Tamil, Bengali, Spanish, English), stammering & apraxia modes, parent dashboard, and SLP clinician portal.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
